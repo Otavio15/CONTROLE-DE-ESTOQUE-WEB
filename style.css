@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#wrap input{
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+}
+
+#botoes, #saida, #wrap{
+    margin-top: 3px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgb(240, 255, 244);
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+button{
+    width: 30%;
+    height: 35px;
+    background-color:rgb(0, 95, 139);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover, tr:hover{
+    background-color:yellow;
+    color: black;
+}
+
+#saida input{
+    height: 20px;
+    width: 20px;
+}
+
+table{
+    border: solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 95, 139);
+    color: white;
+}
+
+td{
+    border: 1px solid white;
+    border-radius: 10px;
+}

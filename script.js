@@ -13,7 +13,6 @@ let categoria = document.querySelectorAll('#wrap input')[5];
 
 let tabela = document.querySelector('#saida table');
 let BD = [];
-const res = require('./teste');
 
 //métodos
 btnEnviar.onclick = function(){
@@ -27,7 +26,6 @@ btnEnviar.onclick = function(){
     produto.id = BD.length;
     BD.push(produto);
     tabela.innerHTML += `<tr><td><input type="checkbox" id="${produto.id}" onchange="verificar(this.id)"></td><td>${produto.nome}</td><td>${produto.quantidade}</td><td>${preco.value}</td></tr>`;
-    //alert(res.res());
 }
 
 btnExcluir.onclick = function(){
